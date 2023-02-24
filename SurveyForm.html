@@ -7,7 +7,7 @@
     <title>Health insurance Survey</title>
   </head>
   <body>
-    <h1 id="tittle">Health Insurance Survey</h1>
+    <h1 id="title">Health Insurance Survey</h1>
     <p id="description">The best way to insurance your Health</p>
     <form id="survey-form">
       <label id="name-label" for="name"> Name </label>
@@ -25,9 +25,9 @@
         required
       />
       <label for="number" id="number-label"> Number </label>
-      <input type="number" id="number" min="1" max="50" required />
+      <input type="number" id="number" placeholder="Please give a number" min="1" max="50" required />
 
-      <select name="Insurances-plans" id="dropdrown">
+      <select name="Insurances-plans" id="dropdown">
         <option value="1">The first Plan</option>
         <option value="2">The second Plan</option>
       </select>
@@ -47,7 +47,7 @@
         placeholder="Please share your comments with us"
       ></textarea>
 
-      <button type="submit">Submit</button>
+      <button id="submit" type="submit">Submit</button>
 
     </form>
   </body>
